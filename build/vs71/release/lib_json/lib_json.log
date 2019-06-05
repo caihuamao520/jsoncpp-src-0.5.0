@@ -1,0 +1,95 @@
+﻿cl : 命令行 warning D9035: “Zc:forScope-”选项已否决，并将在将来的版本中移除
+  json_reader.cpp
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(155): warning C4251: “Json::Reader::nodes_”: class“std::stack<Json::Value *,std::deque<_Ty,std::allocator<_Ty>>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+          with
+          [
+              _Ty=Json::Value *
+          ]
+  E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(154): note: 参见“std::stack<Json::Value *,std::deque<_Ty,std::allocator<_Ty>>>”的声明
+          with
+          [
+              _Ty=Json::Value *
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(156): warning C4251: “Json::Reader::errors_”: class“std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+          with
+          [
+              _Ty=Json::Reader::ErrorInfo
+          ]
+  E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(108): note: 参见“std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=Json::Reader::ErrorInfo
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(157): warning C4251: “Json::Reader::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/reader.h(163): warning C4251: “Json::Reader::commentsBefore_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  json_value.cpp
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(43): warning C4251: “Json::FastWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::FastWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(94): warning C4251: “Json::StyledWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+          with
+          [
+              _Ty=std::string
+          ]
+  E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/value.h(119): note: 参见“std::vector<std::string,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=std::string
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(95): warning C4251: “Json::StyledWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(96): warning C4251: “Json::StyledWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(152): warning C4251: “Json::StyledStreamWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+          with
+          [
+              _Ty=std::string
+          ]
+  E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/value.h(119): note: 参见“std::vector<std::string,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=std::string
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(154): warning C4251: “Json::StyledStreamWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(156): warning C4251: “Json::StyledStreamWriter::indentation_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  json_writer.cpp
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(43): warning C4251: “Json::FastWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::FastWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(94): warning C4251: “Json::StyledWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+          with
+          [
+              _Ty=std::string
+          ]
+  e:\tool\c++incolude\jsoncpp-src-0.5.0\include\json\value.h(119): note: 参见“std::vector<std::string,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=std::string
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(95): warning C4251: “Json::StyledWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(96): warning C4251: “Json::StyledWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(152): warning C4251: “Json::StyledStreamWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+          with
+          [
+              _Ty=std::string
+          ]
+  e:\tool\c++incolude\jsoncpp-src-0.5.0\include\json\value.h(119): note: 参见“std::vector<std::string,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=std::string
+          ]
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(154): warning C4251: “Json::StyledStreamWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Tool\C++Incolude\jsoncpp-src-0.5.0\include\json/writer.h(156): warning C4251: “Json::StyledStreamWriter::indentation_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+    正在创建库 ../../build/vs71/release/lib_json.lib 和对象 ../../build/vs71/release/lib_json.exp
+  正在生成代码
+  All 1185 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  lib_json.vcxproj -> E:\Tool\C++Incolude\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/release/lib_json.dll
+  lib_json.vcxproj -> ../../build/vs71/release/lib_json.pdb (Full PDB)
